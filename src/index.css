@@ -1,0 +1,124 @@
+.App{
+ height: calc(100vh - 0px);
+ background-color: #131313;
+ /* display: flex; */
+}
+.outerWrap{
+  background-color: black;
+  height: 100vh;
+  min-height: 100%;
+
+}
+.musicControls{
+  background-color: #282828;
+  text-align: center;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(133, 127, 127);
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+}
+.musicControls:hover{
+  color: white;
+}
+.navBar{
+  width: 230px;
+  height: calc(100% - 1px);
+  background-color: #040404;
+  padding: 8px  0;
+  display: flex;
+  flex-direction: column;
+}
+ .logo{
+  padding: 1rem 0.8rem;
+  justify-content: center;
+
+}
+svg{
+  width: 200px;
+left: 30px;
+}
+p{
+  fill: white;
+}
+ul{
+  margin: 0;
+  padding: 0;
+} 
+hr{
+  width: 100%;
+
+}
+.cookies{
+  font-size: 0.8rem;
+  color: grey;
+  text-align: center;
+  margin-top: auto;
+  padding: 1rem;
+
+ 
+}
+
+span{
+  display: block;
+  text-align: center;
+}
+
+li{
+  color: #b3b3b3;
+  list-style-type: none;
+  cursor: pointer;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  transition: all0.3s ease-in-out;
+}
+li:hover{
+  color: white;
+}
+.active, .active2, .active3{
+  /* background-color: #252323; */
+  flex-direction: row;
+  display: flex;
+  gap: 15px;
+}
+.Login{
+ flex-direction: row;
+ display: flex;
+ position: absolute;
+ right: 60px;
+ gap: 15px;
+}
+.Login2{
+  border-radius: 27px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  padding: 8px 8px;
+}
+.Login1{
+appearance: auto;
+background-color: transparent;
+align-items: center;
+padding: 8px 8px;
+border: none;
+color: #a7a7a7;
+}
+.Footer{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+text-align: center;
+background-color: rgb(18, 18, 18);
+color: white;
+}
+
+.Page{
+  color: #040404;
+}
+.email{
+  width: 500px;
+}
